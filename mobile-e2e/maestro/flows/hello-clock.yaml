@@ -1,0 +1,7 @@
+appId: com.google.android.deskclock
+---
+- launchApp
+- tapOn: "<Stopwatch>"
+- tapOn: "<Start>"
+- assertVisible: "<Stop>"
+- tapOn: "<Stop>"

@@ -1,7 +1,11 @@
 appId: com.google.android.deskclock
 ---
-- launchApp
-- tapOn: "<Stopwatch>"
-- tapOn: "<Start>"
-- assertVisible: "<Stop>"
-- tapOn: "<Stop>"
+- launchApp:
+    clearState: true
+    
+- assertVisible: "Stopwatch"
+- tapOn:
+    id: "com.google.android.deskclock:id/navigation_bar_item_icon_view"
+    index: 3
+- assertVisible: "Start"
+- tapOn: "Start"

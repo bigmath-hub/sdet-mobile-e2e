@@ -23,4 +23,5 @@
 - Done: Ticket 003 closed - Maestro hello flow
 - Evidence: `maestro test hello-clock.yaml` PASS x3
 - Device: `emulator-5554`
-- Notes: Flow uses `lauchApp` + `assertVisible`.
+- Notes: Flow uses `launchApp` + `assertVisible`.
+

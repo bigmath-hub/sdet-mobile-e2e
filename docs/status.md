@@ -29,4 +29,7 @@
 - Fix: I used a small_phone emulator with Android 11.
 - Result: The Clock test was smoother and more stable.
 
-
+### Ticket#005 — Stability Proof (Stopwatch)
+- Done: PASS 10/10 consecutive runs for the Stopwatch flow.
+- Evidence: `docs/evidence/ticket-005_stopwatch_pass10.md`
+- Commit: `f535741`

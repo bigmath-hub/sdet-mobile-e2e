@@ -19,9 +19,8 @@
   - OK: docs/status.md found
   - OK: docs/glossary.md has content
 
-## [2026-01-15] Day 2
-- Done: Ticket 003 closed - Maestro hello flow
-- Evidence: `maestro test hello-clock.yaml` PASS x3
-- Device: `emulator-5554`
-- Notes: Flow uses `launchApp` + `assertVisible`.
-
+## [2026-01-18] Day 2
+### Docs updates
+- Done: Docs pack committed and pushed.
+- Commit: `ee946da`
+- Evidence: GitHub Actions run #10 — Success — duration 8s.

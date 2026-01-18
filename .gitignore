@@ -3,3 +3,6 @@
 *.log
 .vscode/
 .idea/mobile-e2e/maestro/flows/result_*.txt
+
+__pycache__/
+.pytest_cache/

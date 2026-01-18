@@ -33,3 +33,24 @@
 - Done: PASS 10/10 consecutive runs for the Stopwatch flow.
 - Evidence: `docs/evidence/ticket-005_stopwatch_pass10.md`
 - Commit: `f535741`
+
+## Ticket#006 — Submission Pack
+Status: In progress
+
+Done
+- Public Google Drive folder created (viewer link)
+- Drive structure created (README + coverage matrix + evidence folder)
+- Evidence uploaded to Drive:
+  - drive_folder_structure.png
+  - ci_green_b349c72.png
+  - ci_green_0dac689.png
+- Repo submission index added:
+  - docs/submission.md (commit 0dac689)
+
+Pending
+- 01_WALKTHROUGH_VIDEO.mp4 (not recorded yet)
+
+Evidence pointers
+- Drive: https://drive.google.com/drive/folders/11Of5L5AeFegR06djUbsP2ja-6vSsMQG-?usp=sharing
+- PASS x10: docs/evidence/ticket-005_stopwatch_pass10.md (commit 4c77e1c)
+- CI green: b349c72 and 0dac689 (GitHub Actions)

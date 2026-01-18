@@ -5,7 +5,7 @@
 **Decision:** Use Maestro.
 
 **Context / problem:**
-I need one mobile E2E tool that is beginner-friendly and fast to set up for this take-home.
+I need one mobile E2E tool that is beginner-friendly and fast to set up.
 
 **Options considered:**
 - Maestro
@@ -14,7 +14,7 @@ I need one mobile E2E tool that is beginner-friendly and fast to set up for this
 **Why I chose this:**
 - I am a beginner. I want to learn fast.
 - Maestro is faster to set up.
-- The assignment says Maestro is preferred.
+- Maestro is preferred.
 
 **Trade-offs / limitations:**
 - Detox can be more flexible for complex apps.

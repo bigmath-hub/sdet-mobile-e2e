@@ -1,0 +1,33 @@
+# STOPWATCH_TAB: id=com.google.android.deskclock:id/tab_menu_stopwatch
+# START_STOP_BTN: id=com.google.android.deskclock:id/start_stop_button
+# STATE_SIGNAL: text "Start"/"Stop" (risk: language)
+# RESET_BTN: id=com.google.android.deskclock:id/reset_button (requires scroll)
+
+appId: com.google.android.deskclock
+---
+- launchApp:
+    clearState: true
+    
+- assertVisible: 
+    id: com.google.android.deskclock:id/tab_menu_stopwatch
+- tapOn:
+    id: com.google.android.deskclock:id/tab_menu_stopwatch
+
+- assertVisible: "Start"
+- tapOn:
+    id: "com.google.android.deskclock:id/start_stop_button"
+
+- assertVisible: "Stop"
+- tapOn:
+    id: "com.google.android.deskclock:id/start_stop_button"
+
+- assertVisible: "Start"
+
+- scrollUntilVisible:
+    element:
+      id: "com.google.android.deskclock:id/reset_button"
+    direction: DOWN
+    timeout: 5000
+    
+- tapOn:
+    id: "com.google.android.deskclock:id/reset_button"

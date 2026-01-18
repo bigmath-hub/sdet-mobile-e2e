@@ -2,4 +2,4 @@
 .env.*
 *.log
 .vscode/
-.idea/
+.idea/mobile-e2e/maestro/flows/result_*.txt

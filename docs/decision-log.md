@@ -56,3 +56,31 @@ I tried to set up Android E2E in GitHub Codespaces. ADB works, but Android SDK t
 
 **Next step:**
 - Run a Maestro sample flow on a local Android Emulator and capture Maestro logs.
+
+
+## 2026-01-18 — Selectors, state signal, and reset
+
+**Decision:** Prefer id selectors, use text as a state signal, and use `scrollUntilVisible` for reset.
+
+**Context / problem:**
+I need stable tests that can find elements, confirm the right screen, and reset the app to a known state between runs.
+
+**Options considered:**
+- Selectors: id / accessibility id vs text vs index vs point
+- State proof: text vs only ids
+- Reset: `scrollUntilVisible` vs fixed sleeps vs taps by coordinates
+
+**Why I chose this:**
+- Id / accessibility id selectors are more stable and reduce flaky tests.
+- Text can be a good state signal when an id is reused or changes meaning.
+- `scrollUntilVisible` resets using real UI state, not time guessing.
+
+**Trade-offs / limitations:**
+- Text selectors can break with language changes or copy updates.
+- Scrolling can be slower than taps, but it is more reliable.
+
+**Evidence:**
+- PASS xN logs from `maestro test` runs saved in `result_HH-MM-SS.txt`.
+
+**Next step:**
+- Run the flow x5 (and later x10) and keep the latest log file as evidence.

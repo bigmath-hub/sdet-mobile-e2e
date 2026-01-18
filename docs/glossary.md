@@ -10,4 +10,11 @@
 - **appId (package name):** The unique id of an Android app, like `com.example.app`. Maestro uses it to target the correct app.
 - **Flow (Maestro YAML):** A text file with test steps written in YAML. Maestro reads it and executes actions like tap, type, and checks.
 - **assertVisible:** A Maestro check that waits until an element is visible on screen. It is a state-based wait (not random sleep).
+- **Command:** What the test should do (example: tap, type, launchApp).
+- **Selector:** How the test finds a UI element on screen.
+- **Selector priority:** id / accessibility id > text > index > point.
 
+## [2026-01-17]
+- **State signal:** A UI clue that proves the app is in the right state. If an id is reused or changes meaning, visible text can be used as state proof.
+- **Deterministic wait:** A wait that depends on real UI state, not time. Examples: `assertVisible` and `scrollUntilVisible`.
+- **Stability claim:** We can only say a test is stable when we have evidence like `PASS xN` (N consecutive runs).

@@ -12,7 +12,7 @@ https://drive.google.com/drive/folders/11Of5L5AeFegR06djUbsP2ja-6vSsMQG-?usp=sha
 ## Strongest evidence (GitHub is the source of truth)
 - Mobile stability proof (PASS x10):
   - docs/evidence/ticket-005_stopwatch_pass10.md
-  - Commit: 4c77e1c
+  - Commit: f535741
 
 - CI green (latest): 
   - Commit 986884d + Drive: 03_EVIDENCE/ci/ci-green-986884d.png

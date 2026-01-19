@@ -6,5 +6,5 @@
 | Mobile    | Reset to home screen (template)        | Next   | Define a stable reset step per app navigation |
 | API       | GET portfolio endpoint (smoke)         | Ready (smoke) | Smoke implemented + commit `e31594d` |
 | API       | Auth token check (template)            | Next   | Not implemented yet |
-| Contracts | VaultFixture scaffold                  | Next   | Not implemented yet |
+| Contracts | VaultFixture scaffold | Ready (smoke) | Smoke implemented + commit `e127299` |
 | Contracts | Basic deposit/withdraw test (template) | Next   | Needs contracts + local chain setup |

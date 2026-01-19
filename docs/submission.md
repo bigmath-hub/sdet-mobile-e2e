@@ -14,8 +14,8 @@ https://drive.google.com/drive/folders/11Of5L5AeFegR06djUbsP2ja-6vSsMQG-?usp=sha
   - docs/evidence/ticket-005_stopwatch_pass10.md
   - Commit: f535741
 
-- CI green (latest): 
-  - Commit 986884d + Drive: 03_EVIDENCE/ci/ci-green-986884d.png
+- CI green (latest):
+  - Commit 2604ab4 + Drive: 03_EVIDENCE/ci/ci-green-2604ab4.png
 
 ## Notes
 - The Drive folder is the envelope.

@@ -15,7 +15,7 @@ https://drive.google.com/drive/folders/11Of5L5AeFegR06djUbsP2ja-6vSsMQG-?usp=sha
   - Commit: f535741
 
 - CI green (latest):
-  - Commit 2604ab4 + Drive: 03_EVIDENCE/ci/ci-green-2604ab4.png
+  - Commit 174a6b1 (GitHub Actions green)
 
 ## Notes
 - The Drive folder is the envelope.

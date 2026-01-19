@@ -13,10 +13,10 @@ https://drive.google.com/drive/folders/11Of5L5AeFegR06djUbsP2ja-6vSsMQG-?usp=sha
 - Mobile stability proof (PASS x10):
   - docs/evidence/ticket-005_stopwatch_pass10.md
   - Commit: 4c77e1c
-- CI green proof:
-  - Commit: b349c72
+
+- CI green (latest): 
+  - Commit 986884d + Drive: 03_EVIDENCE/ci/ci-green-986884d.png
 
 ## Notes
 - The Drive folder is the envelope.
 - This GitHub repo is the source of truth.
-
